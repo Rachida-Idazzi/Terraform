@@ -15,7 +15,9 @@
 This project uses Terraform to provision a complete WordPress stack on AWS. It includes networking (VPC, Subnet, Internet Gateway), security configurations, an EC2 instance, and a Bash `user_data` script that automatically installs and configures Apache, PHP, MariaDB, and WordPress on boot.
 
 ## Project Structure
+
 assignment-1-wordpress/
+
 ├── main.tf               
 ├── variables.tf          
 ├── outputs.tf            
